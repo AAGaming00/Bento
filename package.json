@@ -27,9 +27,12 @@
     "sirv-cli": "1.0.3"
   },
   "dependencies": {
+    "clsx": "^1.1.1",
     "preact": "^10.3.2",
+    "preact-feather": "^4.1.0",
     "preact-render-to-string": "^5.1.4",
-    "preact-router": "^3.2.1"
+    "sass": "^1.29.0",
+    "sass-loader": "^10.1.0"
   },
   "jest": {
     "preset": "jest-preset-preact",

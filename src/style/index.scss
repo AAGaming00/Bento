@@ -96,7 +96,7 @@ $bp-smallest: 31.25em;
 
 }
 
-#themeButton::focus{
+#themeButton:focus-within{
 outline: 0;
 outline-style:none;
 outline-width:0;

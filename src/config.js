@@ -1,4 +1,4 @@
-export default {
+const config = {
     "12hr": false, // 12 hour clock
     greetings: {
         night: "Good Night",
@@ -51,6 +51,9 @@ export default {
         key: '1ba472bdeb003a88cf66c572ac6ffb3e',
         latitude: 43.653225,
         longitude: -79.383186
-    },
-    ...window?.config
+    }
 }
+
+if (typeof window !== 'undefined') Object.assign(config, window.config)
+
+export default config

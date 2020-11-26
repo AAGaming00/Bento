@@ -1,0 +1,5 @@
+version: "1"
+rules:
+  - base: master
+    upstream: AAGaming00:master
+    mergeMethod: rebase

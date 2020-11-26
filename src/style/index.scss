@@ -15,9 +15,9 @@ $bp-smallest: 31.25em;
 
     // C O L O R S
 
-    --accent: #878ba6aa;
+    --accent: #9a9eb3aa;
 
-    --bg: #9a9eb3;
+    --bg: #878ba6; 
     --sbg: #b0b8d1;
     --fg: #fbfbf8;
 
@@ -96,7 +96,7 @@ $bp-smallest: 31.25em;
 
 }
 
-#themeButton:focus-within{
+#themeButton:focus-within {
 outline: 0;
 outline-style:none;
 outline-width:0;

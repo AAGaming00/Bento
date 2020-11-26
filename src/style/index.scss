@@ -178,7 +178,8 @@ $bp-smallest: 31.25em;
 
 #hour,
 #separator,
-#minutes {
+#minutes,
+#period {
     font-size: var(--fsg);
     font-weight: bolder;
     color: var(--fg);

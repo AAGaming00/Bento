@@ -1,6 +1,6 @@
 # Bento-preact
 
-A [Preact(https://preactjs.com/)] version of [![Bento](https://github.com/MiguelRAvila/Bento)] by Miguel R. Avila
+A [Preact](https://preactjs.com/) version of [![Bento](https://github.com/MiguelRAvila/Bento)] by Miguel R. Avila
 
 ## How to make your own repository
 

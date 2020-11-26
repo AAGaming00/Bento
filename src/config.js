@@ -5,7 +5,7 @@ const config = {
         morning: "Good Morning",
         afternoon: "Pleasing afternoon",
         evening: "Delightful evening",
-        name: "aa"
+        name: "Snapper"
     },
     // main buttons
     buttons: [
@@ -47,10 +47,10 @@ const config = {
         iconPack: 'OneDark',
         // whether to preload the icons or not
         preloadIcons: true,
-        tempUnit: 'C',
+        tempUnit: 'F',
         key: '1ba472bdeb003a88cf66c572ac6ffb3e',
-        latitude: 43.653225,
-        longitude: -79.383186
+        latitude: 32.794773,
+        longitude: -116.962524
     }
 }
 

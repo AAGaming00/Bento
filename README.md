@@ -2,4 +2,9 @@
 
 bento but in preact
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2FAAGaming00%2FBento)
+## how 2 use
+
+1. fork this repo
+2. install ![Pull](https://github.com/apps/pull)
+3. go to ![Vercel](https://vercel.com/import/git) and import it from your fork.
+4. edit `src/config.js`

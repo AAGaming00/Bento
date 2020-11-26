@@ -28,17 +28,19 @@ jobs:
       with:
         node-version: '15'
 
-    - name: Cache dependencies
-      uses: actions/cache@v2.1.3
+    - uses: c-hive/gha-yarn-cache@v1
+
+    - uses: Jaid/action-npm-install@v1.2.4
+
+    - name: Install
+      uses: CultureHQ/actions-yarn@master
       with:
-        path: ~/.npm
-        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-        restore-keys: |
-          ${{ runner.os }}-node-
-
-    - run: npm ci
-
-    - run: npm run build
+        args: install
+        
+    - name: Install
+      uses: CultureHQ/actions-yarn@master
+      with:
+        args: build
  
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3

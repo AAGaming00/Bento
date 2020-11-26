@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "bento-preact",
+  "name": "bento",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {

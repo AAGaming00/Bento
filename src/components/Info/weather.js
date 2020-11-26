@@ -55,7 +55,7 @@ const Weather = () => {
         </div>
         {config.preloadIcons && ['01', '02', '03', '04', '09', '10', '11', '13', '50'].map(e => (
             ['d', 'n'].map(t => (
-            <img className = 'displayNone' src={`/icons/${config.iconPack}/${e}${t}.png`} />
+            <img className = 'displayNone' src={`/assets/icons/${config.iconPack}/${e}${t}.png`} />
         ))
         ))}
     </>

@@ -37,10 +37,10 @@ jobs:
       with:
         args: install
         
-    - name: Install
+    - name: Build
       uses: CultureHQ/actions-yarn@master
       with:
-        args: build
+        args: build:gh
  
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3

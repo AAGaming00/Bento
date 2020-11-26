@@ -55,6 +55,7 @@ $bp-smallest: 31.25em;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
     font-size: 13.5px;
+    user-select: none;
 
     transition: 0.2s ease-in-out;
 }
@@ -92,6 +93,13 @@ $bp-smallest: 31.25em;
 
     -webkit-appearance: none;
     -moz-appearance: none;
+
+}
+
+#themeButton::focus{
+outline: 0;
+outline-style:none;
+outline-width:0;
 }
 
 .bicon {

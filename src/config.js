@@ -1,5 +1,5 @@
 const config = {
-    "12hr": false, // 12 hour clock
+    "12hr": false, // 12 Hour Clock, set this to "true" if you'd like it.
     greetings: {
         night: "Good Night",
         morning: "Good Morning",
@@ -7,7 +7,7 @@ const config = {
         evening: "Delightful evening",
         name: "aa"
     },
-    // main buttons
+    // Main Buttons
     buttons: [
         {
             url: 'https://github.com',
@@ -34,20 +34,21 @@ const config = {
                 }
             ]
         },
-        // example iframe panel
+        // Iframe panel
         {
             url: 'https://example.com/',
             // optional prop to zoom the frame in/out
             zoom: 0.5
         }
     ],
-    // for weather data, remove this to remove weather
+    // For weather data, comment or remove this in order to disable it.
     weather: {
-        // weather icon pack to use
+        // Weather icon pack to use
         iconPack: 'OneDark',
-        // whether to preload the icons or not
+        // Whether to preload the icons or not
         preloadIcons: true,
         tempUnit: 'C',
+        // Replace this with your own openweathermap.org key if you'd like to customize it.
         key: '1ba472bdeb003a88cf66c572ac6ffb3e',
         latitude: 43.653225,
         longitude: -79.383186

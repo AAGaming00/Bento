@@ -52,7 +52,7 @@ const Info = () => {
     [day, setDay] = useState(''),
     [hour, setHour] = useState(''),
     [minute, setMinute] = useState(''),
-    [period, setPeriod] = useState('')
+    [period, setPeriod] = useState()
     useEffect(() => {
         displayClock(
             { month, day, hour, minute, period },

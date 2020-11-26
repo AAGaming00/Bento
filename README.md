@@ -1,10 +1,11 @@
-# bento-preact
+# Bento-preact
 
-bento but in preact
+A [Preact](https://preactjs.com/) version of [Bento](https://github.com/MiguelRAvila/Bento) by Miguel R. Avila
 
-## how 2 use
+## How to make your own repository
 
-1. fork this repo
-2. install ![Pull](https://github.com/apps/pull)
-3. go to ![Vercel](https://vercel.com/import/git) and import it from your fork.
-4. edit `src/config.js`
+1. Fork this repository
+2. Install [Pull](https://github.com/apps/pull) onto your fork
+3. Go to [Vercel](https://vercel.com/import/git) and import your fork. Leave all the options as default
+4. Edit `src/config.js` to your liking
+ 

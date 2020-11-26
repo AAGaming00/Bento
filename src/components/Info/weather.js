@@ -44,7 +44,7 @@ const Weather = () => {
     <>
         <div className="sblock__weather">
             <div className="weather-icon">
-                <img src={`icons/${config.iconPack}/${data.iconId || 'unknown'}.png`} />
+                <img src={`./assets/icons/${config.iconPack}/${data.iconId || 'unknown'}.png`} />
             </div>
             <div className="temperature-value">
                 <p>{data.temperature?.value.toString() || '-'}°<span className="g">{config.tempUnit.toUpperCase()}</span></p>

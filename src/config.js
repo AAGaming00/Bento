@@ -52,5 +52,5 @@ export default {
         latitude: 43.653225,
         longitude: -79.383186
     },
-    ...window.config
+    ...window?.config
 }

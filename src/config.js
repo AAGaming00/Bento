@@ -5,7 +5,7 @@ const config = {
         morning: "Good Morning",
         afternoon: "Pleasing afternoon",
         evening: "Delightful evening",
-        name: "aa"
+        name: "Snapper"
     },
     // Main Buttons
     buttons: [
@@ -47,11 +47,10 @@ const config = {
         iconPack: 'OneDark',
         // Whether to preload the icons or not
         preloadIcons: true,
-        tempUnit: 'C',
-        // Replace this with your own openweathermap.org key if you'd like to customize it.
+        tempUnit: 'F',
         key: '1ba472bdeb003a88cf66c572ac6ffb3e',
-        latitude: 43.653225,
-        longitude: -79.383186
+        latitude: 32.794773,
+        longitude: -116.962524
     }
 }
 

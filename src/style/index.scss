@@ -15,11 +15,11 @@ $bp-smallest: 31.25em;
 
     // C O L O R S
 
-    --accent: #186efdaa;
+    --accent: #9a9eb3aa;
 
-    --bg: #f5f5f5;
-    --sbg: #e4e6e6;
-    --fg: #3a3a3a;
+    --bg: #878ba6; 
+    --sbg: #b0b8d1;
+    --fg: #fbfbf8;
 
     // --imgbg: url(/assets/img/wal.jpg);
 
@@ -37,13 +37,13 @@ $bp-smallest: 31.25em;
 }
 
 .app.darktheme {
-    --accent: #7289DA;
+    --accent: #6272a4;
 
-    --bg: #23272A;
+    --bg: #282a36;
 
-    --sbg: #2C2F33;
+    --sbg: #44475a;
 
-    --fg: #99AAB5;
+    --fg: #f8f8f2;
 
 
     --imgcol: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
@@ -55,6 +55,7 @@ $bp-smallest: 31.25em;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
     font-size: 13.5px;
+    user-select: none;
 
     transition: 0.2s ease-in-out;
 }
@@ -92,6 +93,13 @@ $bp-smallest: 31.25em;
 
     -webkit-appearance: none;
     -moz-appearance: none;
+
+}
+
+#themeButton:focus-within {
+outline: 0;
+outline-style:none;
+outline-width:0;
 }
 
 .bicon {
